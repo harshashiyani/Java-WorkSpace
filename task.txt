@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main() {
+   char ch[50] = "harsh";
+   int len= printf("%s\n", ch);
+   printf("%s%d",ch, len - 1);
+}
