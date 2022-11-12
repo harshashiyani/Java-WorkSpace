@@ -21,6 +21,16 @@ public class Rectangle {
 		length=l;
 		breadth=b;
 	}
+	
+	public static void main(String[] args) {
+		Rectangle r=new Rectangle(5, 4);
+		r.Parameter();
+		r.area();
+		
+		Square sqr=new Square(5);
+		sqr.Parameter();
+		sqr.area();
+	}
 
 }
 
@@ -32,17 +42,4 @@ class Square extends Rectangle{
 		// TODO Auto-generated constructor stub
 	}
 	
-}
-
-
-class Main{
-	public static void main(String[] args) {
-		Rectangle r=new Rectangle(5, 4);
-		r.Parameter();
-		r.area();
-		
-		Square sqr=new Square(5);
-		sqr.Parameter();
-		sqr.area();
-	}
 }
